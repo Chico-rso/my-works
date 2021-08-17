@@ -1,0 +1,32 @@
+.footer__wrapper
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 68px;
+}
+.footer__nav
+{
+	display: flex;
+	align-items: center;
+	a
+	{
+		font-size: 18px;
+		line-height: 21px;
+		color: #595959;
+		svg
+		{
+			margin-right: 36px;
+		}
+	}
+}
+.footer__nav-list
+{
+	display: flex;
+	gap: 15px;
+}
+.footer__social
+{
+	display: flex;
+	gap: 21px;
+}
