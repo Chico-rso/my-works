@@ -5,5 +5,24 @@
 	margin-right: auto;
 	margin-left: auto;
 	position: relative;
-	padding:0 20px;
+	padding:0 120px;
+}
+@media (max-width: $desktop)
+{
+	.container
+	{
+		padding: 0 60px;
+	}
+}
+@media (max-width: $tablet) {
+	.container
+	{
+		padding: 0 30px;
+	}
+}
+@media (max-width: $mobile) {
+	.container
+	{
+		padding: 0 20px;
+	}
 }
