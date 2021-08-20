@@ -916,6 +916,10 @@ body {
   color: #000000;
 }
 
+.main__card-title h2 a {
+  color: inherit;
+}
+
 .main__card-title span {
   padding: 0 8px;
   font-style: normal;
@@ -1006,6 +1010,89 @@ body {
   display: -ms-flexbox;
   display: flex;
   gap: 21px;
+}
+
+.main__tanuki-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: start;
+  -ms-flex-align: start;
+  align-items: start;
+  margin-bottom: 46px;
+}
+
+.main__tanuki-title h2 {
+  margin-right: 30px;
+}
+
+.main__tanuki-info {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8C8C8C;
+}
+
+.main__tanuki-info span:first-child:after {
+  content: "";
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  width: 5px;
+  height: 5px;
+  background-color: #8C8C8C;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.main__tanuki-rait {
+  margin-right: 26px;
+  color: #FFC107;
+}
+
+.main__tanuki-rait img {
+  margin-right: 8px;
+}
+
+.main__tanuki-cards-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+
+.main__tanuki-card {
+  -webkit-flex-basis: 31%;
+  -ms-flex-preferred-size: 31%;
+  flex-basis: 31%;
+  -webkit-box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+  -webkit-border-radius: 7px;
+  border-radius: 7px;
+}
+
+.main__tanuki-cards-title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.main__tanuki-cards-info {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 21px;
+  color: #8C8C8C;
 }
 
 /* @import 'blocks/component/component'; */
@@ -1199,6 +1286,36 @@ html {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 425px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .footer__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer__nav {
+    margin-bottom: 10px;
+  }
+
+  .footer__nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    gap: 7px;
   }
 }
 

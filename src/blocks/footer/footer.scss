@@ -44,3 +44,20 @@
 		flex-wrap: wrap;
 	}
 }
+@media (max-width: 425px)
+{
+	.footer__wrapper
+	{
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.footer__nav
+	{
+		margin-bottom: 10px;
+	}
+	.footer__nav-list
+	{
+		flex-direction: column;
+		gap: 7px
+	}
+}

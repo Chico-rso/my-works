@@ -1,0 +1,68 @@
+.main__tanuki-title
+{
+	display: flex;
+	align-items: start;
+	margin-bottom: 46px;
+	h2
+	{
+		margin-right: 30px;
+	}
+}
+.main__tanuki-info
+{
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 32px;
+	color: #8C8C8C;
+	span:first-child:after
+	{
+		content: "";
+		display: inline-block;
+		vertical-align: middle;
+		border-radius: 50%;
+		width: 5px;
+		height: 5px;
+		background-color: #8C8C8C;
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+
+}
+.main__tanuki-rait
+{
+	margin-right: 26px;
+	color: #FFC107;
+	img
+	{
+		margin-right: 8px;
+	}
+}
+.main__tanuki-cards-list
+{
+	display: flex;
+	flex-wrap: wrap;
+	gap: 24px;
+}
+.main__tanuki-card
+{
+	flex-basis: 31%;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+	border-radius: 7px;
+}
+.main__tanuki-cards-title
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 32px;
+}
+.main__tanuki-cards-info
+{
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 21px;
+	color: #8C8C8C;
+}
