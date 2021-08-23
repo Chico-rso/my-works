@@ -4,115 +4,159 @@
 
 <main class="main__tanuki">
 	<div class="container">
-	<div class="main__tanuki-title">
-		<h2>Тануки</h2>
-		<div class="main__tanuki-rait">
-			<span><img src="svg/rating.svg" alt="rating">4.5</span>
+		<div class="main__tanuki-title">
+			<h2>Тануки</h2>
+			<div class="main__tanuki-rait">
+				<span><img src="svg/rating.svg" alt="rating">4.5</span>
+			</div>
+			<div class="main__tanuki-info">
+				<span>От 900 ₽</span>
+				<span>Пицца  и суши</span>
+			</div>
 		</div>
-		<div class="main__tanuki-info">
-			<span>От 900 ₽</span>
-			<span>Пицца  и суши</span>
+		<div class="main__tanuki-cards">
+			<ul class="main__tanuki-cards-list">
+				<li class="main__tanuki-card"><a href="#">
+					<img src="img/eel.png" alt="roll">
+					<h2 class="main__tanuki-card-title">
+						<a href="#">Ролл угорь стандарт</a>
+					</h2>
+					<div >
+						<span class="main__tanuki-card-info">Рис, угорь, соус унаги, кунжут, водоросли нори.</span>
+					</div>
+					<div class="main__tanuki-card-bottom">
+						<button>
+							<span>В корзину</span>
+							{% include '../src/assets/svg/tanuki-basket.svg' %}
+						</button>
+						<span class="main__tanuki-card-price">250 ₽</span>
+					</div>
+				</li>
+				<li class="main__tanuki-card"><a href="#">
+					<img src="img/ california.png" alt="roll">
+				</a>
+				<h2 class="main__tanuki-card-title">
+					<a href="#">Калифорния лосось стандарт</a>
+				</h2>
+				<div class="main__tanuki-card-info">
+					<span>Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.</span>
+				</div>
+				<div class="main__tanuki-card-bottom">
+					<button>
+						<span>В корзину</span>
+						{% include '../src/assets/svg/tanuki-basket.svg' %}
+					</button>
+					<span class="main__tanuki-card-price">395 ₽</span>
+				</div>
+			</li>
+			<li class="main__tanuki-card"><a href="#">
+				<img src="img/okinava.png" alt="roll">
+			</a>
+			<h2 class="main__tanuki-card-title">
+				<a href="#">Окинава стандарт</a>
+			</h2>
+			<div class="main__tanuki-card-info">
+				<span> Рис, креветка отварная, сыр сливочный, лосось, огурец свежий...</span>
+			</div>
+			<div class="main__tanuki-card-bottom">
+				<button>
+					<span>В корзину</span>
+					{% include '../src/assets/svg/tanuki-basket.svg' %}
+				</button>
+				<span class="main__tanuki-card-price">250 ₽</span>
+			</div>
+		</li>
+		<li class="main__tanuki-card"><a href="#">
+			<img src="img/cesar.png" alt="roll">
+		</a>
+		<h2 class="main__tanuki-card-title">
+			<a href="#">Цезарь маки хl</a>
+		</h2>
+		<div class="main__tanuki-card-info">
+			<span>Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...</span>
+		</div>
+		<div class="main__tanuki-card-bottom">
+			<button>
+				<span>В корзину</span>
+				{% include '../src/assets/svg/tanuki-basket.svg' %}
+			</button>
+			<span class="main__tanuki-card-price">250 ₽</span>
+		</div>
+	</li>
+	<li class="main__tanuki-card"><a href="#">
+		<img src="img/iasai-maki.png" alt="roll">
+	</a>
+	<h2 class="main__tanuki-card-title">
+		<a href="#">Ясай маки стандарт 185 г</a>
+	</h2>
+	<div class="main__tanuki-card-info">
+		<span>Рис, помидор свежий, перец болгарский, авокадо, огурец, айсберг</span>
+	</div>
+	<div class="main__tanuki-card-bottom">
+		<button>
+			<span>В корзину</span>
+			{% include '../src/assets/svg/tanuki-basket.svg' %}
+		</button>
+		<span class="main__tanuki-card-price">250 ₽</span>
+	</div>
+</li>
+<li class="main__tanuki-card"><a href="#">
+	<img src="img/shrimp.png" alt="roll">
+</a>
+<h2 class="main__tanuki-card-title">
+	<a href="#">Ролл с креветкой стандарт</a>
+</h2>
+<div class="main__tanuki-card-info">
+	<span>Рис, водоросли нори, креветки отварные, сыр сливочный, огурцы</span>
+</div>
+<div class="main__tanuki-card-bottom">
+	<button>
+		<span>В корзину</span>
+		{% include '../src/assets/svg/tanuki-basket.svg' %}
+	</button>
+	<span class="main__tanuki-card-price">250 ₽</span>
+</div>
+</li>
+<div class="modal">
+	<div class="modal__dialog">
+		<div class="modal__dialog-top">
+			<h2 class="modal__dialog-title">Корзина</h2>
+			<div class="modal__dialog-close">
+				<button class="modal__dialog-close-button">&times;</button>
+			</div>
+		</div>
+		<div class="modal__dialog-middle">
+			<div class="modal__dialog-food">
+				<span class="modal__dialog-food-name">Ролл угорь стандарт</span>
+				<strong class="modal__dialog-food-price">250 ₽</strong>
+				<div class="modal__dialog-food-counter">
+					<button class="counter-button">-</button>
+					<span class="counter-value">1</span>
+					<button class="counter-button">+</button>
+				</div>
+			</div>
+			<div class="modal__dialog-middle">
+			<div class="modal__dialog-food">
+				<span class="modal__dialog-food-name">Ролл угорь стандарт</span>
+				<strong class="modal__dialog-food-price">250 ₽</strong>
+				<div class="modal__dialog-food-counter">
+					<button class="counter-button">-</button>
+					<span class="counter-value">1</span>
+					<button class="counter-button">+</button>
+				</div>
+			</div>
+		</div>
+		<div class="modal__dialog-bottom">
+			<div class="total">
+				<span>1250 ₽</span>
+			</div>
+			<div class="modal__dialog-buttons">
+				<button>Оформить заказ</button>
+				<button>Отмена</button>
+			</div>
 		</div>
 	</div>
-	 <div class="main__tanuki-cards">
-	 	<ul class="main__tanuki-cards-list">
-	 		<li class="main__tanuki-card"><a href="#">
-	 			 <img src="img/eel.png" alt="roll">
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Ролл угорь стандарт</a>
-	 		</h2>
-	 		<div >
-	 			<span class="main__tanuki-card-info">Рис, угорь, соус унаги, кунжут, водоросли нори.</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">250 ₽</span>
-	 		</div>
-	 		</li>
-	 		<li class="main__tanuki-card"><a href="#">
-	 		 	<img src="img/ california.png" alt="roll">
-	 		</a>
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Калифорния лосось стандарт</a>
-	 		</h2>
-	 		<div class="main__tanuki-card-info">
-	 			<span>Рис, лосось, авокадо, огурец, майонез, икра масаго, водоросли нори.</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">395 ₽</span>
-	 		</div>
-	 		</li>
-	 		<li class="main__tanuki-card"><a href="#">
-	 			<img src="img/okinava.png" alt="roll">
-	 		</a>
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Окинава стандарт</a>
-	 		</h2>
-	 		<div class="main__tanuki-card-info">
-	 			<span> Рис, креветка отварная, сыр сливочный, лосось, огурец свежий...</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">250 ₽</span>
-	 		</div>
-	 		</li>
-	 		<li class="main__tanuki-card"><a href="#">
-	 			<img src="img/cesar.png" alt="roll">
-	 		</a>
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Цезарь маки хl</a>
-	 		</h2>
-	 		<div class="main__tanuki-card-info">
-	 			<span>Рис, куриная грудка копченая, икра масаго, томат, айсберг, соус цезарь...</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">250 ₽</span>
-	 		</div>
-	 		</li>
-	 		<li class="main__tanuki-card"><a href="#">
-	 			<img src="img/iasai-maki.png" alt="roll">
-	 		</a>
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Ясай маки стандарт 185 г</a>
-	 		</h2>
-	 		<div class="main__tanuki-card-info">
-	 			<span>Рис, помидор свежий, перец болгарский, авокадо, огурец, айсберг</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">250 ₽</span>
-	 		</div>
-	 		</li>
-	 		<li class="main__tanuki-card"><a href="#">
-	 			<img src="img/shrimp.png" alt="roll">
-	 		</a>
-	 		<h2 class="main__tanuki-card-title">
-	 			<a href="#">Ролл с креветкой стандарт</a>
-	 		</h2>
-	 		<div class="main__tanuki-card-info">
-	 			<span>Рис, водоросли нори, креветки отварные, сыр сливочный, огурцы</span>
-	 		</div>
-	 		<div class="main__tanuki-card-bottom">
-	 			<button>
-	 				<span>В корзину</span>
-	 			</button>
-	 			<span class="main__tanuki-card-price">250 ₽</span>
-	 		</div>
-	 		</li>
-	 	</ul>
-	 </div>
-	</div>
+</div>
+</div>
 </main>
 {% endblock %}
