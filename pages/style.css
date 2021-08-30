@@ -743,6 +743,124 @@ li.L9 {
   font-size: 1em;
 }
 
+.hero {
+  padding-bottom: 75px;
+  margin-bottom: 100px;
+  border-bottom: 1px solid #4C4C4C;
+}
+
+.hero__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.hero__title {
+  text-align: center;
+  margin-bottom: 33px;
+}
+
+.hero__title h1 {
+  font-size: 34px;
+  line-height: 37px;
+}
+
+.hero__description {
+  text-align: center;
+  margin-bottom: 100px;
+  color: #FFFFFF;
+  font-family: GhotamPro-light;
+  font-size: 18px;
+}
+
+.hero__slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 83px;
+}
+
+.hero__slider-list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.hero__slider-item:last-child {
+  margin-right: 45px;
+}
+
+.hero__order {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.hero__order-text {
+  margin-bottom: 35px;
+  font-size: 19px;
+}
+
+.hero__slider-btn {
+  width: 25px;
+  height: 25px;
+  border: none;
+}
+
+.next {
+  background-image: url("./img/next.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.prev {
+  background-image: url("./img/prev.svg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-right: 53px;
+}
+
+.hero__order-btn {
+  width: 300px;
+  height: 70px;
+  background-color: #FF2E55;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 /* blocks */
 
 /* Пример подключения*/
