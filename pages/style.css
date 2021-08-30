@@ -78,6 +78,16 @@
   font-display: swap;
 }
 
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url("./fonts/gothampro-light.ttf");
+}
+
+@font-face {
+  font-family: 'Gotham-Pro';
+  src: url("./fonts/gothampro-medium.ttf");
+}
+
 /*  Переменные со шрифтами  */
 
 /*  Переменные с гарнитурами шрифтов  */
@@ -539,7 +549,7 @@ th {
 /*  Общая типографика для всех страниц. здесь описываются общие свойства для текстовых блоков  */
 
 body {
-  font-family: "Roboto-mono", sans-serif;
+  font-family: "Gotham-pro", sans-serif;
   font-size: 16px;
   line-height: 1.5;
   min-height: 100vh;
@@ -607,8 +617,16 @@ a:focus {
   text-decoration: none;
 }
 
+body {
+  min-width: 375px;
+  overflow-x: hidden;
+  background-color: #292929;
+  color: #ffff;
+  line-height: 1.2em;
+}
+
 .container {
-  max-width: 1220px;
+  max-width: 1180px;
   width: 100%;
   margin-right: auto;
   margin-left: auto;
@@ -647,6 +665,82 @@ li.L5,
 li.L7,
 li.L9 {
   background: #eee;
+}
+
+.header {
+  padding-top: 50px;
+  margin-bottom: 118px;
+}
+
+.header__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__left {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.header__right {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.header__logo {
+  margin-right: 42px;
+}
+
+.header__description {
+  font-size: 0.9em;
+}
+
+.header__description span {
+  color: red;
+}
+
+.header__right-description {
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+
+.header__right-phone {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.header__right-link {
+  color: #FF3469;
+  text-decoration: underline;
+  font-size: 1em;
 }
 
 /* blocks */

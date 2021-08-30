@@ -20,7 +20,9 @@
 </head>
 <body>
 	{% include "blocks/header/header.twig" %}
-	{% block page %}{% endblock %}
+		<main>
+			{% block page %}{% endblock %}
+		</main>
 	{% include "blocks/footer/footer.twig" %}
 	<script type="text/javascript" src="./main.min.js" defer="" async=""></script>
 </body>

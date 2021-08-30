@@ -1,0 +1,51 @@
+.header
+{
+	padding-top: 50px;
+	margin-bottom: 118px;
+}
+.header__wrapper
+{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__left
+{
+	display: flex;
+	align-items: center;
+}
+.header__right
+{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.header__logo
+{
+	margin-right: 42px;
+}
+.header__description
+{
+	font-size: 0.9em;
+	span
+	{
+		color: red;
+	}
+}
+.header__right-description
+{
+	margin-bottom: 15px;
+	font-size: 12px;
+}
+.header__right-phone
+{
+	color: #FFFFFF;
+	font-size: 20px;
+	font-weight: 500;
+}
+.header__right-link
+{
+	color: #FF3469;
+	text-decoration: underline;
+	font-size: 1em;
+}

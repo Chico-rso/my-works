@@ -1,11 +1,19 @@
-<header>
+<header class="header">
 	<div class="container">
-	<div class="container">
-	<div class="container">
-		img example <br/>
-		<picture>
-			<source srcset="img/logo.webp" type="image/webp">
-			<img src="img/logo.png" alt="Logo" width="57px">
-		</picture>
+	<div class="header__wrapper">
+		<div class="header__left">
+		<a href="#" class="header__logo">
+			{% include '../../assets/svg/logo.svg' %}
+		</a>
+		<span class="header__description">
+			Интернет-магазин <br> цветов с доставкой <br> по всей <span>России</span>
+		</span>
+		</div>
+		<div class="header__right">
+			<a href="tel:+78006548745" class="header__right-phone">8 (800) 654-87-45</a>
+			<span class="header__right-description">Звонок по России бесплатный</span>
+			<a class="header__right-link" href="#">Заказать звонок</a>
+		</div>
+	</div>
 	</div>
 </header>
