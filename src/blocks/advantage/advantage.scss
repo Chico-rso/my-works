@@ -1,0 +1,96 @@
+.advantage
+{
+	padding-bottom: 100px;
+	border-bottom: 1px solid #4C4C4C;
+	margin-bottom: 93px;
+}
+.advantage__title
+{
+	margin-bottom: 95px;
+	h2
+	{
+		margin: 0 ;
+		text-align: center;
+		text-transform: uppercase;
+		font-size: 30px;
+		font-weight: 500;
+	}
+}
+.advantage__slider
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 93px;
+}
+.advantage__client
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	min-width: 223px;
+	height: 221px;
+	margin-right: 51px;
+	background-image: linear-gradient(0deg, rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url('./img/flowers.jpeg');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: auto;
+	border-radius: 50%;
+	span
+	{
+		font-size: 20px;
+	}
+}
+.advantage__slider-prev
+{
+	margin-right: 58px;
+	border: none;
+}
+.advantage__slider-next
+{
+	border: none;
+}
+.advantage__review
+{
+	margin-right: 85px;
+	max-width: 481px;
+	font-size: 18px;
+	p
+	{
+		margin: 0;
+		margin-bottom: 18px;
+		color: #FFFFFF;
+	}
+	a
+	{
+		text-decoration: underline;
+		color: #F24841;
+	}
+}
+.advantage__bottom
+{
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.advantage__bottom-block
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	svg
+	{
+		margin-bottom: 30px;
+	}
+	p
+	{
+		margin: 0;
+		font-size: 20px;
+		max-width: 326px;
+		text-align: center;
+		font-weight: 600;
+		color: #FFFFFF;
+	}
+}

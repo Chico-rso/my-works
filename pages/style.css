@@ -34,58 +34,11 @@
 /* base */
 
 @font-face {
-  font-family: 'Roboto-mono';
-  src: url("./fonts/Roboto_mono/Light/RobotoMono-Light.eot");
-  src: url("./fonts/Roboto_mono/Light/RobotoMono-Light.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto_mono/Light/RobotoMono-Light.woff2") format("woff2"), url("./fonts/Roboto_mono/Light/RobotoMono-Light.woff") format("woff"), url("./fonts/Roboto_mono/Light/RobotoMono-Light.svg#RobotoMono-Light") format("svg"), url("./fonts/Roboto_mono/Light/RobotoMono-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto-mono';
-  src: url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.eot");
-  src: url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.woff2") format("woff2"), url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.woff") format("woff"), url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.svg#RobotoMono-Bold") format("svg"), url("./fonts/Roboto_mono/Bold/RobotoMono-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto-mono';
-  src: url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.eot");
-  src: url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.woff2") format("woff2"), url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.woff") format("woff"), url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.svg#RobotoMono-Thin") format("svg"), url("./fonts/Roboto_mono/Thin/RobotoMono-Thin.ttf") format("truetype");
-  font-weight: 100;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto-mono';
-  src: url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.eot");
-  src: url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.woff2") format("woff2"), url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.woff") format("woff"), url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.svg#RobotoMono-Medium") format("svg"), url("./fonts/Roboto_mono/Medium/RobotoMono-Medium.ttf") format("truetype");
+  font-family: 'Gotham-Pro';
+  src: url("./fonts/Gotham-Pro/GothamPro-Medium.ttf");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-}
-
-@font-face {
-  font-family: 'Roboto-mono';
-  src: url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.eot");
-  src: url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.eot?#iefix") format("embedded-opentype"), url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.woff2") format("woff2"), url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.woff") format("woff"), url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.svg#RobotoMono-Regular") format("svg"), url("./fonts/Roboto_mono/Regular/RobotoMono-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: 'Gotham-Pro';
-  src: url("./fonts/gothampro-light.ttf");
-}
-
-@font-face {
-  font-family: 'Gotham-Pro';
-  src: url("./fonts/gothampro-medium.ttf");
 }
 
 /*  Переменные со шрифтами  */
@@ -619,7 +572,6 @@ a:focus {
 
 body {
   min-width: 375px;
-  overflow-x: hidden;
   background-color: #292929;
   color: #ffff;
   line-height: 1.2em;
@@ -666,6 +618,8 @@ li.L7,
 li.L9 {
   background: #eee;
 }
+
+/* blocks */
 
 .header {
   padding-top: 50px;
@@ -861,7 +815,146 @@ li.L9 {
   text-transform: uppercase;
 }
 
-/* blocks */
+.advantage {
+  padding-bottom: 100px;
+  border-bottom: 1px solid #4C4C4C;
+  margin-bottom: 93px;
+}
+
+.advantage__title {
+  margin-bottom: 95px;
+}
+
+.advantage__title h2 {
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.advantage__slider {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-bottom: 93px;
+}
+
+.advantage__client {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 223px;
+  height: 221px;
+  margin-right: 51px;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.3))), url("./img/flowers.jpeg");
+  background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/flowers.jpeg");
+  background-image: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/flowers.jpeg");
+  background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./img/flowers.jpeg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: auto auto;
+  background-size: auto;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.advantage__client span {
+  font-size: 20px;
+}
+
+.advantage__prev {
+  margin-right: 58px;
+  border: none;
+}
+
+.advantage__next {
+  border: none;
+}
+
+.advantage__review {
+  margin-right: 85px;
+  max-width: 481px;
+  font-size: 18px;
+}
+
+.advantage__review p {
+  margin: 0;
+  margin-bottom: 18px;
+  color: #FFFFFF;
+}
+
+.advantage__review a {
+  text-decoration: underline;
+  color: #F24841;
+}
+
+.advantage__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: space-evenly;
+  -webkit-justify-content: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.advantage__bottom-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.advantage__bottom-block svg {
+  margin-bottom: 30px;
+}
+
+.advantage__bottom-block p {
+  margin: 0;
+  font-size: 20px;
+  max-width: 326px;
+  text-align: center;
+  font-weight: 600;
+  color: #FFFFFF;
+}
 
 /* Пример подключения*/
 
