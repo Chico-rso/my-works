@@ -1,22 +1,22 @@
 <header class="header">
 	<div class="container">
-		<div class="header__menu">
+		<div class="header__wr">
 			<div class="header__logo">
-				<span>Film.</span>
+				<a href="">{% include '../../assets/svg/logo.svg' %}</a>
 			</div>
-			<div class="header__nav">
-				<form action="#">
-					{% include '../../assets/svg/search-icon.svg' %}
-					<input class="header__nav-search" placeholder="Поиск по фильмам...">
-				</form>
-				<nav class="header__nav-items">
-					<a href="#">Фильмы</a>
-					<a href="#">ТВ</a>
-					<a href="#">Новости</a>
-					<a href="#">О сервисе</a>
-				</nav>
+			<div class="header__menu">
+			<form class="header__search">
+				<a href="#">{% include '../../assets/svg/search-icon.svg' %}</a>
+			    <input placeholder="Поиск по фильмам...">
+			</form>
+			<nav class="header__nav">
+				<a href="#">Фильмы</a>
+				<a href="#">ТВ</a>
+				<a href="#">Новости</a>
+				<a href="#">О сервисе</a>
+			</nav>
 			</div>
-			<div class="header__enter">
+			<div class="header__buttons">
 				<button>Регистрация</button>
 				<button>Войти</button>
 			</div>

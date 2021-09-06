@@ -1,12 +1,12 @@
 /*  Переменные со шрифтами  */
-$accent-font: 'Roboto-mono', sans-serif;
+$accent-font: 'Roboto', sans-serif;
 
 /*  Переменные с гарнитурами шрифтов  */
 $thin:					100;
 $light:					300;
-$regular:				normal;
+$regular:				400;
 $medium:				500;
-$bold:					bold;
+$bold:					700;
 
 /* Настройки оснвоно шрифта */
 $mainFontSize: 			13px;
@@ -22,5 +22,5 @@ $secondary-color: 		#6a7678;
 $mobile:				768px;
 $tablet:				769px;
 $desktop:				1024px;
-$widescreen:			1130px;
+$widescreen:			1170px;
 $fullhd:				1408px;
