@@ -1,0 +1,56 @@
+.actors__titile
+{
+	margin-bottom: 58px;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 28px;
+	span:first-child
+	{
+		margin-right: 25px;
+	}
+	span:last-child
+	{
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 28px;
+		color: #A5A5A5;
+	}
+}
+.actor__cards
+{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-bottom: 62px;
+}
+.actor__card
+{
+	display: flex;
+	align-items: center;
+	flex: 0 1 calc(100% / 4);
+	margin-bottom: 35px;
+	img
+	{
+		margin-right: 20px;
+	}
+}
+.actor__card-name
+{
+	display: flex;
+	flex-direction: column;
+	span:first-child
+	{
+		margin-bottom: 6px;
+		font-weight: bold;
+		font-size: 16px;
+		line-height: 19px;
+		color: #5671F6;
+	}
+	span:last-child
+	{
+		ont-weight: normal;
+		font-size: 16px;
+		line-height: 19px;
+		color: #A5A5A5;
+	}
+}
