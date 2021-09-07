@@ -1,0 +1,32 @@
+<header class="header">
+	<div class="container">
+		<div class="header__left">
+			<div class="header__folder">
+				{% include '../../assets/svg/folder.svg' %}
+				<p> <a href="#">Publisher cabinet</a> </p>
+				{% include '../../assets/svg/arrow.svg' %}
+			</div>
+			<nav class="header__nav">
+				<ul class="header__nav-list">
+					<li><a href="#">First Item</a></li>
+					<li><a href="#">Middle Item</a></li>
+					<li><a href="#">Middle Item</a></li>
+					<li><a href="#">Middle Item</a></li>
+					<li><a href="#">Middle Item</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header__right">
+			<form class="header__right-search" action="#">
+                {% include '../../assets/svg/search.svg' %}
+				{# <input> #}
+			</form>
+			<div class="header__right-notice">
+				{% include '../../assets/svg/notice.svg' %}
+			</div>
+			<div class="header__right-profile">
+			    <a href="#">YF</a>
+			</div>
+		</div>
+	</div>
+</header>
