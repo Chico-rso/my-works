@@ -1,13 +1,16 @@
 .header
 {
 	min-height: 64px;
+	position: relative;
 	background: #132038;
-	border-radius: 0px;
 	font-family: Fira Sans;
-	.container
+	.header__content
 	{
 		display: flex;
 		align-items: center;
+		padding-right: 16px;
+		margin: 0;
+		padding-left: 152px;
 		min-height: 64px;
 		justify-content: space-between;
 	}
@@ -30,9 +33,8 @@ a
 	{
 		margin-right: 10px;
 	}
-	p
+	a:last-of-type
 	{
-		margin: 0;
 		margin-right: 14px;
 		font-weight: 500;
 		font-size: 18px;
@@ -84,4 +86,98 @@ a
 		text-align: center;
 		color: #1A1A1A;
 	}
+}
+.sidebar
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 152px;
+	height: 100vh;
+	padding-left: 24px;
+	padding-top: 16px;
+	padding-bottom: 24px;
+	background: #132038;
+}
+.sidebar__top
+{
+	a
+	{
+		display: inline-block;
+		margin-bottom: 24px;
+		color: #808080;
+		&:hover
+		{
+			color: #fff;
+		}
+	}
+	a:first-child
+	{
+		margin-bottom: 56px;
+	}
+	span
+	{
+		font-family: Fira Sans;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		vertical-align: middle;
+	}
+	svg
+	{
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}
+.sidebar__bottom
+{
+	display: flex;
+	flex-direction: column;
+	a
+	{
+		display: inline-block;
+		margin-bottom: 24px;
+		color: #808080;
+		&:hover
+		{
+			color: #fff;
+		}
+	}
+	span
+	{
+		font-family: Fira Sans;
+		font-style: normal;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 16px;
+		vertical-align: middle;
+	}
+	svg
+	{
+		margin-right: 10px;
+		vertical-align: middle;
+	}
+}
+.sidebar__bottom-btn
+{
+text-align: center;
+	a
+	{
+		width: 32px;
+		height: 32px;
+		margin: 0 auto;
+		border: 1px solid #999999;
+		border-radius: 4px;
+		margin-bottom: 0;
+		text-align: center;
+		svg
+		{
+			margin-right: 0;
+		}
+	}
+
 }

@@ -1,9 +1,9 @@
 <header class="header">
-	<div class="container">
+	<div class="header__content">
 		<div class="header__left">
 			<div class="header__folder">
-				{% include '../../assets/svg/folder.svg' %}
-				<p> <a href="#">Publisher cabinet</a> </p>
+				<a href="#">{% include '../../assets/svg/folder.svg' %}</a>
+				<a href="#">Publisher cabinet</a>
 				{% include '../../assets/svg/arrow.svg' %}
 			</div>
 			<nav class="header__nav">
@@ -18,15 +18,34 @@
 		</div>
 		<div class="header__right">
 			<form class="header__right-search" action="#">
-                {% include '../../assets/svg/search.svg' %}
-				{# <input> #}
+                <a href="#">{% include '../../assets/svg/search.svg' %}</a>
 			</form>
 			<div class="header__right-notice">
-				{% include '../../assets/svg/notice.svg' %}
+			<a href="#">{% include '../../assets/svg/notice.svg' %}</a>
 			</div>
 			<div class="header__right-profile">
 			    <a href="#">YF</a>
 			</div>
 		</div>
 	</div>
+	<aside>
+		<div class="sidebar">
+		<div class="sidebar__top">
+				<a href="#">{% include '../../assets/svg/logo.svg'%} <span>Core</span></a>
+				<a href="#">{% include '../../assets/svg/Dashboard.svg'%} <span>Dashboard</span></a>
+				<a href="#">{% include '../../assets/svg/Campaign.svg' %} <span>Campaign</span></a>
+				<a href="#">{% include '../../assets/svg/Network.svg' %} <span>Network</span></a>
+				<a href="#">{% include '../../assets/svg/Creative.svg' %} <span>Creative</span></a>
+				<a href="#">{% include '../../assets/svg/Analysis.svg' %} <span>Analysis</span></a>
+		</div>
+		<div class="sidebar__bottom">
+				<a href="#">{% include '../../assets/svg/Admin.svg' %} <span>Admin</span></a>
+				<a href="#">{% include '../../assets/svg/Help.svg' %} <span>Help</span></a>
+				<a href="#">{% include '../../assets/svg/Support.svg' %} <span>Support</span></a>
+		<div class="sidebar__bottom-btn">
+			<a href="#"> {% include '../../assets/svg/arrow-prev.svg' %}</a>
+		</div>
+		</div>
+		</div>
+	</aside>
 </header>
