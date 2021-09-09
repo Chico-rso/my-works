@@ -1,0 +1,149 @@
+.catalog
+{
+	margin-bottom: 63px;
+}
+.catalog__text
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.catalog__list
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+
+}
+.catalog__item
+{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	flex-basis: 25%;
+	height: 100%;
+	max-width: 211px;
+	min-height: 376px;
+	margin-right: 27px;
+	margin-bottom: 26px;
+	padding: 32px 35px;
+	border: 2px solid #ffffff;
+	img
+	{
+		display: inline-block;
+		width: 117px;
+		max-width: 100%;
+		height: auto;
+		margin-bottom: 23px;
+	}
+	h2
+	{
+		margin: 0;
+		margin-bottom: 20px;
+		font-size: 20px;
+	}
+	button
+	{
+		vertical-align: middle;
+		text-align: center;
+		border: none;
+		cursor: pointer;
+	}
+}
+.catalog__item-colors
+{
+	display: flex;
+	margin-bottom: 20px;
+	justify-content: space-beetwen;
+}
+.catalog__item-count
+{
+	margin-bottom: 20px;
+}
+.catalog__item-input
+{
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	z-index: -1;
+
+}
+.--white
+{
+	background-color: white;
+}
+.--orange
+{
+	background-color: orange;
+}
+.--pink
+{
+	background-color: pink;
+}
+.--red
+{
+	background-color: red;
+}
+.--blue
+{
+	background-color: blue;
+}
+.catalog__item-counter
+{
+
+	input
+	{
+		width: 41px;
+		height: 41px;
+		text-align: center;
+	}
+}
+.catalog__item-counter-input
+{
+	margin-bottom: 20px;
+	border: 1px solid #fff;
+	color: #fff;
+	background-color: #29292929;
+}
+.catalog__item-counter-btn
+{
+	padding-right: 14px;
+	padding-left: 14px;
+}
+.catalog__item-btn
+{
+	padding: 14px 28px;
+	background-color: #F24841;
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 1;
+}
+.catalog__item-label
+{
+	width: 20px;
+	height: 20px;
+	margin-right: 5px;
+}
+.catalog__item-label:hover
+{
+	border: 1px solid #000;
+}
+.catalog__bottom
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px;
+	a
+	{
+		color: #F24841;
+		margin-right: 10px;
+	}
+	a:hover
+	{
+		text-decoration: underline;
+	}
+}

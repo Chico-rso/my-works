@@ -793,13 +793,13 @@ li.L9 {
   border: none;
 }
 
-.next {
+.__next {
   background-image: url("./img/next.svg");
   background-repeat: no-repeat;
   background-position: center center;
 }
 
-.prev {
+.__prev {
   background-image: url("./img/prev.svg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -886,12 +886,12 @@ li.L9 {
   font-size: 20px;
 }
 
-.advantage__prev {
+.advantage__slider-prev {
   margin-right: 58px;
   border: none;
 }
 
-.advantage__next {
+.advantage__slider-next {
   border: none;
 }
 
@@ -954,6 +954,201 @@ li.L9 {
   text-align: center;
   font-weight: 600;
   color: #FFFFFF;
+}
+
+.catalog {
+  margin-bottom: 63px;
+}
+
+.catalog__text {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.catalog__list {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.catalog__item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-align-content: center;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-flex-basis: 25%;
+  -ms-flex-preferred-size: 25%;
+  flex-basis: 25%;
+  height: 100%;
+  max-width: 211px;
+  min-height: 376px;
+  margin-right: 27px;
+  margin-bottom: 26px;
+  padding: 32px 35px;
+  border: 2px solid #ffffff;
+}
+
+.catalog__item img {
+  display: inline-block;
+  width: 117px;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 23px;
+}
+
+.catalog__item h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.catalog__item button {
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+
+.catalog__item-colors {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+  -webkit-box-pack: space-beetwen;
+  -webkit-justify-content: space-beetwen;
+  -ms-flex-pack: space-beetwen;
+  justify-content: space-beetwen;
+}
+
+.catalog__item-count {
+  margin-bottom: 20px;
+}
+
+.catalog__item-input {
+  display: none;
+  opacity: 0;
+  visibility: hidden;
+  z-index: -1;
+}
+
+.--white {
+  background-color: white;
+}
+
+.--orange {
+  background-color: orange;
+}
+
+.--pink {
+  background-color: pink;
+}
+
+.--red {
+  background-color: red;
+}
+
+.--blue {
+  background-color: blue;
+}
+
+.catalog__item-counter input {
+  width: 41px;
+  height: 41px;
+  text-align: center;
+}
+
+.catalog__item-counter-input {
+  margin-bottom: 20px;
+  border: 1px solid #fff;
+  color: #fff;
+  background-color: #29292929;
+}
+
+.catalog__item-counter-btn {
+  padding-right: 14px;
+  padding-left: 14px;
+}
+
+.catalog__item-btn {
+  padding: 14px 28px;
+  background-color: #F24841;
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 1;
+}
+
+.catalog__item-label {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+.catalog__item-label:hover {
+  border: 1px solid #000;
+}
+
+.catalog__bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.catalog__bottom a {
+  color: #F24841;
+  margin-right: 10px;
+}
+
+.catalog__bottom a:hover {
+  text-decoration: underline;
 }
 
 /* Пример подключения*/

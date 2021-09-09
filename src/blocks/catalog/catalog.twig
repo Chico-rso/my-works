@@ -1,0 +1,40 @@
+<section class="catalog">
+	<div class="container">
+		<div class="catalog__text">
+			<h2>Собери свой букет прямо сейчас!</h2>
+			<p>Выберите желаемые цветы и наши флористы их оформят и доставят лично в руки!</p>
+		</div>
+		<div class="catalog__list">
+		{% for i in 1..8%}
+			<div class="catalog__item">
+				<img src="./img/catalog-rose.png" alt="flowers">
+				<h2>Розы</h2>
+				<span>Выберите цвет:</span>
+				<div class="catalog__item-colors">
+					<label for="white" class="catalog__item-label --white"></label>
+					<input type="radio" name="color" class="catalog__item-input --white" value="white">
+					<label for="orange" class="catalog__item-label --orange"></label>
+					<input type="radio" name="color" class="catalog__item-input --orange" value="orange">
+					<label for="pink" class="catalog__item-label --pink"></label>
+					<input type="radio" name="color" class="catalog__item-input --pink" value="pink">
+					<label for="red" class="catalog__item-label --red"></label>
+					<input type="radio" name="color" class="catalog__item-input --red" value="red">
+					<label for="blue" class="catalog__item-label --blue"></label>
+					<input type="radio" name="color" class="catalog__item-input --blue" value="blue">
+				</div>
+				<span class="catalog__item-count">Количество:</span>
+				<div class="catalog__item-counter">
+					<button class="catalog__item-counter-btn">-</button>
+					<input type="text" class="catalog__item-counter-input" value="1">
+					<button class="catalog__item-counter-btn">+</button>
+				</div>
+				<button class="catalog__item-btn">В корзину</button>
+			</div>
+			{% endfor %}
+		</div>
+		<div class="catalog__bottom">
+			<a href="#">Все цветы</a>
+			{% include '../../assets/svg/arrow-down.svg' %}
+		</div>
+	</div>
+</section>
