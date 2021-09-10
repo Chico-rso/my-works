@@ -1,11 +1,17 @@
-<header>
+<header class="header">
 	<div class="container">
-	<div class="container">
-	<div class="container">
-		img example <br/>
-		<picture>
-			<source srcset="img/logo.webp" type="image/webp">
-			<img src="img/logo.png" alt="Logo" width="57px">
-		</picture>
+	<div class="header__wr">
+		<nav class="header__nav">
+			<a href="#">Pikadu</a>
+			<a href="#">Свежее </a>
+			<a href="#">Лучшее</a>
+			<a href="#">Горячее</a>
+			<a href="#">Подписки</a>
+		</nav>
+		<form class="header__form" action="#">
+			<input type="text" placeholder="Поиск по сайту">
+			<a href="#">{% include '../../assets/svg/search.svg' %}</a>
+		</form>
+	</div>
 	</div>
 </header>
