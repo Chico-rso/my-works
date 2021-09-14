@@ -1,0 +1,18 @@
+body
+{
+	background-color: #000000;
+	color: #ffffff;
+}
+a
+{
+	color: #ffffff;
+}
+.container
+{
+	max-width: $widescreen;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	position: relative;
+	padding:0 20px;
+}
