@@ -1,0 +1,154 @@
+.main
+{
+	display: flex;
+	flex-wrap: wrap;
+	font-family: Playfair Display;
+	font-style: normal;
+}
+.main__watch
+{
+	width: 50%;
+	padding: 93px 80px;
+	h2
+	{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+		margin-bottom: 100px;
+		text-align: center;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 48px;
+		text-transform: uppercase;
+		&:after
+		{
+			content: '';
+			display: block;
+			width: 120px;
+			height: 1px;
+			margin-top: 50px;
+			background-color: #ffff;
+		}
+	}
+}
+.main__watch-cards
+{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.main__watch-card
+{
+	max-width: 260px;
+	margin-right: 50px;
+	font-size: 18px;
+	line-height: 24px;
+	p
+	{
+		color: #fff;
+	}
+
+	img
+	{
+		background: #191B1C;
+		padding: 55px 22px;
+	}
+	&:last-child
+	{
+		margin-right: 0;
+	}
+}
+.main__new
+{
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+	flex-basis: 50%;
+	padding: 100px 0;
+	background-image: url('./img/new1.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	h2
+	{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 62px;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 48px;
+		text-align: center;
+		text-transform: uppercase;
+		&:after
+		{
+			content: '';
+			display: block;
+			width: 120px;
+			height: 1px;
+			background-color: #ffffff;
+			margin-top: 30px;
+		}
+	}
+	button
+	{
+		border: none;
+		border: 1px solid #FFFFFF;
+		padding: 12px 28px;
+		font-family: PT Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+	}
+}
+.main__foto
+{
+	width: 40%;
+}
+.main__collection
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 100px 0;
+	width: 60%;
+	h2
+	{
+		margin-bottom: 83px;
+		font-size: 36px;
+		line-height: 48px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	p
+	{
+		max-width: 470px;
+		margin-bottom: 58px;
+		font-family: PT Sans;
+		text-align: center;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 14px;
+		line-height: 150%;
+	}
+	button
+	{
+		padding: 12px 28px;
+		border: 1px solid #FFFFFF;
+		font-family: PT Sans;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 18px;
+		line-height: 23px;
+		text-align: center;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+
+	}
+}
