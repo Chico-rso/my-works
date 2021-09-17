@@ -45,7 +45,7 @@
 						</nav>
 					</div>
 					<div class="header__buttons">
-						<button>Регистрация</button>
+						<button onclick="o2.gPopup.open('_header-popup')">Регистрация</button>
 						<button>Войти</button>
 					</div>
 				</div>
@@ -80,6 +80,27 @@
 				</div>
 			</div>
 		</footer>
+		<div class="_header-popup" style="display: none;">
+			<div class="header-popup _popup-content">
+				<div class="header-popup__content">
+					<button class="g-popup__clsoe" onclick="o2.gPopup.close()">X</button>
+					<h2>Регистрация нового пользователя</h2>
+					<form class="headar-popup__form" action="#">
+						<input required type="name" placeholder="Имя">
+						<input required type="first name" placeholder="Фамилия">
+						<input required type="name" placeholder="Ваш почтовый адрес">
+						<p>
+							<select>
+								<option>Ваш пол: Мужской</option>
+								<option>Ваш пол: Женский</option>
+							</select>
+						</p>
+						<button type="submit">Зарегистрировать</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="g-popup _overlay"></div>
 		<script type="text/javascript" src="./main.min.js" defer="" async=""></script>
 	</body>
 
