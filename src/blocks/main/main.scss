@@ -1,0 +1,46 @@
+.main__content
+{
+	padding: 80px 0 50px 0;
+	background-image: url('./img/bacground-header.png');
+	background-repeat: no-repeat;
+	background-position: 0 -100px;
+	text-align: center;
+	h1
+	{
+		max-width: 800px;
+		margin: 0 auto;
+		font-size: 50px;
+		line-height: 53px;
+		text-align: center;
+		letter-spacing: 6px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+		&:after
+		{
+			content: '';
+			display: block;
+			width: 84px;
+			height: 1px;
+			margin: 0 auto;
+			margin-top: 14px;
+			margin-bottom: 20px;
+			background-color: #F1DC9A;
+		}
+	}
+	p
+	{
+		width: 290px;
+		margin: 0 auto;
+		font-size: 20px;
+		line-height: 24px;
+		text-align: center;
+		letter-spacing: 2px;
+		text-transform: uppercase;
+		color: #FFFFFF;
+	}
+}
+.main__logo
+{
+	display: flex;
+	justify-content: center;
+}
