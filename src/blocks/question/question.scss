@@ -1,0 +1,57 @@
+.question
+{
+	height: 1100px;
+	padding: 106px 70px;
+	background-image: url('./img/q-back.png');
+	transform: translateY(-177px);
+	background-size: cover;
+}
+h2
+{
+	font-size: 66px;
+	line-height: 79px;
+}
+h3
+{
+	font-size: 30px;
+	line-height: 36px;
+}
+p
+{
+	width: 663px;
+	font-size: 33px;
+	line-height: 37px;
+	font-weight: 300;
+	color: #000000;
+	text-align: center;
+}
+form
+{
+	display: flex;
+	flex-direction: column;
+	max-width: 700px;
+	input
+	{
+		height: 60px;
+		padding-left: 15px;
+		margin-bottom: 10px;
+		border: 1.5px solid #000000;
+	}
+	button
+	{
+		max-width: 600px;
+		padding: 26px 27px;
+		background-color: #F1DC9A;
+		border: 1px solid #F1DC9A;
+		font-size: 30px;
+		line-height: 26px;
+		text-align: center;
+		letter-spacing: 2.25px;
+		text-transform: uppercase;
+		transition: background-color .3s;
+		&:hover
+		{
+			background-color: #F1B766;
+		}
+	}
+}

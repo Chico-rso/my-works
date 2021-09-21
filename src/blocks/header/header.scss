@@ -1,25 +1,30 @@
+.header
+{
+	background-color: rgba(0, 0, 0, 0.82);
+	position: relative;
+}
 .header__content
 {
 	padding: 16px 30px 10px 35px;
-	background-color: rgba(0, 0, 0, 0.82);
-	position: relative;	
 }
 a
 {
 	color: #ffffff;
+	transition: color .3s;
 	&:hover
 	{
-		color: #C4C5CA;
+		color: #C9984F;
 	}
 }
 
 .header__top
 {
 	display: flex;
+	justify-content: space-between;
 }
 .header__top-logo
 {
-	margin-right: 25px;
+	margin-right: 82px;
 }
 .header__top-list
 {
@@ -40,16 +45,6 @@ a
 	&:last-child
 	{
 		margin-right: 0;
-	}
-	&:nth-child(5)
-	{
-		margin-right: 39px;
-	}
-	&:nth-child(6)
-	{
-		display: block;
-		width: 21%;
-		margin-right: 34px;
 	}
 }
 .header__bottom

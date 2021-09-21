@@ -1,10 +1,14 @@
+.main
+{
+	background-image: url('./img/main-back.png');
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	background-size: cover;
+}
 .main__content
 {
 	padding: 80px 0 50px 0;
-	background-image: url('./img/bacground-header.png');
-	background-repeat: no-repeat;
-	background-position: 0 -100px;
-	text-align: center;
 	h1
 	{
 		max-width: 800px;
