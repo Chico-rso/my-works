@@ -1,0 +1,41 @@
+.tabs
+{
+	display: flex;
+	justify-content: space-between;
+	max-width: 500px;
+	padding: 40px;
+}
+span
+{
+	cursor: pointer;
+}
+li
+{
+	padding-left: 20px;
+	margin-bottom: 5px;
+	transition: transform .4s;
+	a
+	{
+		color: #000;
+
+	}
+	&:hover
+		{
+			transform: scale(1.1);
+		}
+}
+.tab__content
+{
+	opacity: 0;
+	visibility: hidden;
+	transition: transform .4s, opacity .4s;
+}
+.tab__content-active
+{	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 10px;
+	visibility: visible;
+	opacity: 1;
+	transform: translateX(20px);
+}
