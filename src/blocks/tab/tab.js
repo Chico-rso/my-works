@@ -14,7 +14,7 @@ o2.tab =
 
 		wr.querySelector(`.tab__content[data-target="${i}"]`).classList.add('tab__content-active');
 		e.target.closest('.tab-btn').classList.add('active');
-
+		console.log(e);
 		// const btn = document.querySelectorAll('.tab-btn').forEach(function(tabBtn)
 		// {
 		// 	const path = e.currentTarget.dataset.path;
